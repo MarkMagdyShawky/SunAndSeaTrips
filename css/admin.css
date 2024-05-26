@@ -1,0 +1,218 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* //////////// Navbar /////////////////// */
+
+.header1 {
+    top: 0;
+    right: 0;
+}
+
+.header {
+    display: flex;
+    height: 8%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.678);
+    color: black;
+    padding-left: 30px;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    /* justify-content: center; */
+}
+
+.header .logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    letter-spacing: .3px;
+    font-family: cursive, sans-serif;
+}
+
+.header .nav ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.header .nav ul li {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 70px;
+    transition: all .3s ease-in-out;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    letter-spacing: .5px;
+
+}
+
+.header .nav li:hover {
+    transform: scale(1.1, 1.1);
+
+}
+
+/* //////////////// header responsive ///////// */
+@media (max-width: 767px) {
+
+    .header {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.938);
+        height: 6%;
+        color: black;
+        padding-left: 10px;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+    }
+
+    .header .logo a {
+
+        font-size: 18px;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        letter-spacing: .1px;
+        font-family: cursive, sans-serif;
+    }
+
+    .header .nav ul li {
+        display: flex;
+        list-style: none;
+        padding-top: 10px;
+        padding-right: 20px;
+        transition: all .3s ease-in-out;
+    }
+
+    .header .nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        letter-spacing: .5px;
+
+    }
+}
+
+/* /////////Back Ground //////// */
+.backgr {
+    background-image: url(foto/wallpaper2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -99;
+    opacity: .8;
+    filter: grayscale(5%) blur(1px);
+}
+
+/* //////////////////////////// body /////////////////////*/
+
+.section1 {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.section1 .boxes {
+    width: 50%;
+    height: fit-content;
+    background-color: rgba(240, 248, 255, 0.733);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 0 white;
+    margin-bottom: 50px;
+
+}
+
+.section1 .boxes p {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: cursive, sans-serif;
+}
+
+.section1 .boxes .errors{
+    margin-bottom: 10px;
+    background-color: #fd8e96d9;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ef7272;
+
+}
+
+.section1 .boxes form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.section1 .boxes form label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+    font-size: 17px;
+}
+
+
+.section1 .boxes form .box .input {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 .boxes form .box input {
+
+    width: 40%;
+    height: 22px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 15px;
+    border: 1px solid black;
+    border-radius: 12px;
+    transition: all .3s ease-in-out;
+
+}
+
+.section1 .boxes form .box input:focus{
+    background-color: rgba(196, 255, 255, 0.774);
+}
+
+.section1 .boxes form .button {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 .boxes form .button input {
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 7px 30px;
+    transition: all .3s ease-in-out;
+}
+
+.section1 .boxes form .button input:hover {
+background-color: rgb(147, 255, 156);
+}
