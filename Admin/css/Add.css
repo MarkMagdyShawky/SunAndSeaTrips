@@ -1,0 +1,184 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* //////////// Navbar /////////////////// */
+
+.header1 {
+    top: 0;
+    right: 0;
+}
+
+.header {
+    display: flex;
+    height: 8%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-left: 30px;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    /* justify-content: center; */
+}
+
+.header .logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    letter-spacing: .3px;
+    font-family: cursive, sans-serif;
+}
+
+.header .nav ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.header .nav ul li {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 70px;
+    transition: all .3s ease-in-out;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    letter-spacing: .5px;
+
+}
+
+.header .nav li:hover {
+    transform: scale(1.1, 1.1);
+
+}
+
+/* //////////////// header responsive ///////// */
+@media (max-width: 767px) {
+
+    .header {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.938);
+        height: 6%;
+        color: black;
+        padding-left: 10px;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+    }
+
+    .header .logo a {
+
+        font-size: 18px;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        letter-spacing: .1px;
+        font-family: cursive, sans-serif;
+    }
+
+    .header .nav ul li {
+        display: flex;
+        list-style: none;
+        padding-top: 10px;
+        padding-right: 20px;
+        transition: all .3s ease-in-out;
+    }
+
+    .header .nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        letter-spacing: .5px;
+
+    }
+}
+
+
+/* /////// Section1 //////// */
+
+.section1 {
+    padding: 60px 0px;
+    z-index: 1;
+    background-color: #c1caff;
+    background-color: #ffeb3b;
+}
+
+.section1 .boxes h1 {
+    text-align: center;
+    font-family: cursive, sans-serif;
+    margin-bottom: 30px;
+}
+
+.section1 .boxes form {
+    padding-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.section1 .boxes form .box {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.section1 .boxes form .box label {
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+
+.section1 .boxes form .box textarea {
+    padding: 7px 12px;
+    border-radius: 12px;
+    width: fit-content;
+    min-width: 210px;
+    min-height: 80px;
+    border: 1px solid rgba(128, 128, 128, 0.815);
+}
+
+.section1 .boxes form .box input[type="text"] {
+    padding: 7px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.815);
+}
+
+.section1 .boxes form .add .submit-btn {
+    background-color: rgb(142, 219, 255);
+    border-radius: 27px;
+    border: 1px solid black;
+    padding: 10px 60px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+
+.section1 .boxes form .add .submit-btn:hover {
+    background-color: rgb(0, 255, 55);
+}
+
+.section1 .boxes form .box input[type="file"] {
+    padding: 7px 0px;
+    font-size: 17px;
+}
+
