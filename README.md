@@ -1,2 +1,5 @@
 # SunAndSeaTrips
-in [Section `Website`](#http://sunandseatrips.rf.gd/)
+in [Section 'Features'](#[ssFeatures](http://sunandseatrips.rf.gd/)) 
+
+## Features <a id='http://sunandseatrips.rf.gd/'></a>
+
