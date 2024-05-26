@@ -1,0 +1,123 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	top: 0;
+	font-family: fantasy;
+}
+
+
+.part1 .home{
+	margin: 30px;
+}
+
+.part1 .home a {
+    background-color: #205100;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: cursive;
+    font-weight: 500;
+    border-radius: 27px;
+    color: white;
+    padding: 10px 15px;
+    transition: all .3s ease-in-out;
+}
+
+.part1 .home a:hover{
+    background-color: #c0ff11;
+    color: black;
+}
+
+
+.section6 {
+	margin: -30px 30px;
+}
+
+.section6 .boxes h1{
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: cursive;
+	font-size: 45px;
+	color: #003164;
+	text-shadow: -5px -5px 15px  white;
+}
+
+.section6 .boxes .box p{
+	font-size: 18px;
+}
+.section6 .boxes .box p a{
+	text-decoration: none;
+	font-weight: bold;
+	color:  #003164;
+}
+
+
+.section6 .boxes .box form{
+	display: felx;
+	flex-wrap:wrap;
+}
+
+.section6 .boxes h2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content:center;
+	color: #003164;
+	font-size: 30px;
+}
+
+.section6 .boxes .box form .item{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	margin-top: 20px;
+}
+
+.section6 .boxes .box form .item label{
+	padding-bottom: 7px;
+	color: #353434;
+	font-family: cursive;
+}
+
+.section6 .boxes .box form .item input{
+	width: 80%;
+	max-width: 350px;
+	height: 25px;
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 3px 7px 3px 12px;
+}
+.section6 .boxes .box form .item textarea{
+	width: 80%;
+	max-width: 350px;
+	height: 70px;
+	border: 1px solid gray;
+	border-radius: 12px;
+	padding: 12px 7px 3px 12px;
+}
+
+.section6 .boxes .box form .item button{
+	width: 50%;
+	max-width: 250px;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 25px;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 13px;
+	letter-spacing: 1.2px;
+	border-radius: 25px;
+	font-family:cursive;
+	background-color: #205100;
+	color: white;
+	transition: all .3s ease-in-out;
+}
+
+.section6 .boxes .box form .item button:hover{
+    background-color: #c0ff11;
+    color: black;
+    transform: scale(1.03,1.03);
+}
