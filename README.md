@@ -1,3 +1,2 @@
 # SunAndSeaTrips
-## Websit Link :
-        http://sunandseatrips.rf.gd/
+in [Section `Website`](#http://sunandseatrips.rf.gd/)
