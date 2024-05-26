@@ -1,2 +1,2 @@
 # SunAndSeaTrips
-![Screenshot 2024-05-26 at 23-25-38 Sun   Sea](https://github.com/MarkMagdyShawky/SunAndSeaTrips/assets/106816564/2de5d911-e83e-45b1-a50c-750a4cb1eead)
+![Sun   Sea2](https://github.com/MarkMagdyShawky/SunAndSeaTrips/assets/106816564/3e58bee3-0dc6-43f0-88b5-290306796529)
