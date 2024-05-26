@@ -1,0 +1,243 @@
+html,
+body {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* //////////// Navbar /////////////////// */
+
+.header1 {
+   top: 0;
+   right: 0;
+}
+
+.header {
+   display: flex;
+   height: 8%;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   color: black;
+   padding-left: 30px;
+   align-items: center;
+   position: fixed;
+   z-index: 100;
+   /* justify-content: center; */
+}
+
+.header .logo a {
+   text-decoration: none;
+   color: black;
+   font-size: 32px;
+   font-weight: bold;
+   align-items: center;
+   justify-content: center;
+   margin-right: 70px;
+   letter-spacing: 0.3px;
+   font-family: cursive, sans-serif;
+}
+
+.header .nav ul {
+   display: flex;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.header .nav ul li {
+   display: flex;
+   list-style: none;
+   padding-top: 10px;
+   padding-right: 70px;
+   transition: all 0.3s ease-in-out;
+}
+
+.header .nav ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+   letter-spacing: 0.5px;
+}
+
+.header .nav li:hover {
+   transform: scale(1.1, 1.1);
+}
+
+/* //////////////// header responsive ///////// */
+@media (max-width: 767px) {
+   .header {
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.938);
+      height: 6%;
+      color: black;
+      padding-left: 10px;
+      align-items: center;
+      position: fixed;
+      z-index: 100;
+   }
+
+   .header .logo a {
+      font-size: 18px;
+      font-weight: bold;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0px;
+      letter-spacing: 0.1px;
+      font-family: cursive, sans-serif;
+   }
+
+   .header .nav ul li {
+      display: flex;
+      list-style: none;
+      padding-top: 10px;
+      padding-right: 20px;
+      transition: all 0.3s ease-in-out;
+   }
+
+   .header .nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+   }
+}
+
+/* /////// Section1 //////// */
+
+.section1 {
+   padding: 80px 30px;
+}
+
+.section1 .title {
+   padding-top: 30px;
+   text-align: center;
+}
+
+.section1 .boxes {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.section1 .boxes .box {
+   border: 1px solid gray;
+   margin-bottom: 20px;
+   padding: 20px;
+}
+
+.section1 .boxes .box .item span {
+   color: rgb(170, 0, 0);
+   font-weight: bold;
+}
+
+.section1 .boxes .box .item {
+   padding-bottom: 40px;
+}
+
+.section1 .boxes .box .line {
+   /* padding-bottom: 40px; */
+   border-bottom: 1px solid gray;
+}
+
+.section1 .boxes .box a {
+   color: white;
+   background-color: rgb(0, 88, 13);
+   padding: 5px 10px;
+   text-decoration: none;
+   border: none;
+   border-radius: 25px;
+}
+
+/* ////////////////// Section 2 ///////////// */
+.section2 {
+   padding: 10px 30px;
+}
+
+.section2 .title {
+   padding-top: 30px;
+   text-align: center;
+}
+
+.section2 .boxes {
+   padding-top: 60px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.section2 .boxes .box .video {
+   margin-left: 30px;
+}
+
+.section2 .boxes .box .video video {
+   width: 500px;
+   height: 300px;
+}
+
+.section2 .boxes .box a {
+   display: flex;
+   color: white;
+   background-color: rgb(0, 88, 13);
+   padding: 5px 10px;
+   text-decoration: none;
+   border: none;
+   border-radius: 25px;
+   width: 100px;
+   margin: 30px;
+}
+
+/* //////////Slide Section //////////*/
+.slideShow {
+   margin: 60px;
+}
+
+.slideShow .title {
+   padding-top: 30px;
+   text-align: center;
+}
+
+.slideShow .boxes {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 40px;
+}
+
+.slideShow .boxes .box {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   width: 400px;
+   border: 1px solid black;
+}
+
+.slideShow .boxes .box img {
+   width: 100%;
+   height: 270px;
+}
+
+.slideShow .boxes .box p {
+   padding-left: 10px;
+   font-size: 16px;
+}
+
+.slideShow .boxes .box p span {
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.slideShow .boxes .box .links {
+   margin: 15px 0px 10px 10px;
+   display: flex;
+   flex-direction: row;
+   gap: 100px;
+}
+
+.slideShow .boxes .box .links a {
+   text-decoration: none;
+   color: white;
+   background-color: rgb(12, 0, 147);
+   border-radius: 20px;
+   padding: 5px 10px;
+}
