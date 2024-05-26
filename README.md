@@ -1,2 +1,2 @@
 
-# SunAndSeaTrips [SunAndSeaTrips](https://pages.github.com/).
+# SunAndSeaTrips [Website](http://sunandseatrips.rf.gd/).
