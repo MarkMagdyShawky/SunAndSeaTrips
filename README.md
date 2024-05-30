@@ -2,7 +2,7 @@
 
 
 
-| User View 1 | Admin View 2 |
+| User View | Admin View |
 |---------|---------|
 | ![Image 1](https://github.com/MarkMagdyShawky/SunAndSeaTrips/assets/106816564/b1e33f9a-0920-4390-a83c-565e0102d788) | ![Image 2](https://github.com/MarkMagdyShawky/SunAndSeaTrips/assets/106816564/ab6dca7f-348d-438d-8150-98669628cb8b) |
 
