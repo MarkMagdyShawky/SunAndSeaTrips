@@ -43,5 +43,5 @@
   - Make user pay and send offers to him
  
   ## Contributors
-  . Mark Magdy 
+- __Mark Magdy__
    
