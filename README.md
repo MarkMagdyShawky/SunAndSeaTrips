@@ -12,3 +12,36 @@
 | ![Image 1](https://github.com/MarkMagdyShawky/SunAndSeaTrips/assets/106816564/8bbe55b5-e92b-432f-8911-91eee2c6d6f6) | ![Image 2](https://github.com/MarkMagdyShawky/SunAndSeaTrips/assets/106816564/ecd31e24-c321-44ce-b8a5-0ead4373e2a7) |
 
 
+### Sun and Sea will be your guide if you looking for an trip in Hurghada. 
+
+## Features
+- Website for Trips in Hurghada
+- Admin can add and update Trips anytime anywhere .
+- User can send message for admin from the website .
+- User can find our facebook, instagram, email and whatsapp easly in website.
+- The website is respons for any device .
+
+
+## How to Use
+- Visit websit from the link [Sun and Sea](http://sunandseatrips.rf.gd/)
+- You will find all Trips
+- Clike in more info if you want more information about the Trip
+- You will fine slide show for the most common trips.
+- Connact us using whatsapp or email or insta or facebook.
+- Click in our phone number and it will copied.
+
+  ## Dependencies
+  - HTML
+  - CSS
+  - Java Script
+  - PHP
+  - MySQL
+    
+
+  ## Future Work
+  - Make user book online
+  - Make user pay and send offers to him
+ 
+  ## Contributors
+  . Mark Magdy 
+   
