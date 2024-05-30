@@ -1,4 +1,4 @@
-# SunAndSeaTrips [Website](http://sunandseatrips.rf.gd/).
+<h1 align="center">Sun and Sea Hurghada Trips</h1>
 
 
 
