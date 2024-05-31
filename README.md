@@ -30,18 +30,18 @@
 - Connact us using whatsapp or email or insta or facebook.
 - Click in our phone number and it will copied.
 
-  ## Dependencies
-  - HTML
-  - CSS
-  - Java Script
-  - PHP
-  - MySQL
+## Dependencies
+- HTML
+- CSS
+- Java Script
+- PHP
+- MySQL
     
 
-  ## Future Work
-  - Make user book online
-  - Make user pay and send offers to him
+## Future Work
+- Make user book online
+- Make user pay and send offers to him
  
-  ## Contributors
+## Contributors
 - __Mark Magdy__
    
