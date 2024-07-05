@@ -23,7 +23,7 @@
 
 
 ## How to Use
-- Visit websit from the link [Sun and Sea](http://sunandseatrips.rf.gd/)
+- Visit websit from the link [Sun and Sea](https://sun-and-sea-hurghada-trips.rf.gd/)
 - You will find all Trips
 - Clike in more info if you want more information about the Trip
 - You will fine slide show for the most common trips.
